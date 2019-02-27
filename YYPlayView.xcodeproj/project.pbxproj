@@ -18,6 +18,12 @@
 		022C8384221D61C100CAAC84 /* YYFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022C8383221D61C100CAAC84 /* YYFinderViewController.m */; };
 		022C8387221D61D400CAAC84 /* YYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022C8386221D61D400CAAC84 /* YYHomeViewController.m */; };
 		022C838A221D624800CAAC84 /* YYLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022C8389221D624800CAAC84 /* YYLaunchViewController.m */; };
+		0277FD02222632E900E3A9B6 /* YYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD01222632E900E3A9B6 /* YYPlayerView.m */; };
+		0277FD052226330000E3A9B6 /* YYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD042226330000E3A9B6 /* YYPlayer.m */; };
+		0277FD082226331B00E3A9B6 /* YYControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD072226331B00E3A9B6 /* YYControlView.m */; };
+		0277FD0B2226332A00E3A9B6 /* YYSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD0A2226332A00E3A9B6 /* YYSliderView.m */; };
+		0277FD0E22263F9C00E3A9B6 /* YYScreenDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD0D22263F9C00E3A9B6 /* YYScreenDirection.m */; };
+		1D5722D7C3FCF9108318E70A /* libPods-YYPlayView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268206C910D9F624A3AABE4A /* libPods-YYPlayView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,19 @@
 		022C8386221D61D400CAAC84 /* YYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHomeViewController.m; sourceTree = "<group>"; };
 		022C8388221D624800CAAC84 /* YYLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYLaunchViewController.h; sourceTree = "<group>"; };
 		022C8389221D624800CAAC84 /* YYLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYLaunchViewController.m; sourceTree = "<group>"; };
+		0277FD00222632E900E3A9B6 /* YYPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPlayerView.h; sourceTree = "<group>"; };
+		0277FD01222632E900E3A9B6 /* YYPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPlayerView.m; sourceTree = "<group>"; };
+		0277FD032226330000E3A9B6 /* YYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPlayer.h; sourceTree = "<group>"; };
+		0277FD042226330000E3A9B6 /* YYPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPlayer.m; sourceTree = "<group>"; };
+		0277FD062226331B00E3A9B6 /* YYControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYControlView.h; sourceTree = "<group>"; };
+		0277FD072226331B00E3A9B6 /* YYControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYControlView.m; sourceTree = "<group>"; };
+		0277FD092226332A00E3A9B6 /* YYSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSliderView.h; sourceTree = "<group>"; };
+		0277FD0A2226332A00E3A9B6 /* YYSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSliderView.m; sourceTree = "<group>"; };
+		0277FD0C22263F9C00E3A9B6 /* YYScreenDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYScreenDirection.h; sourceTree = "<group>"; };
+		0277FD0D22263F9C00E3A9B6 /* YYScreenDirection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYScreenDirection.m; sourceTree = "<group>"; };
+		268206C910D9F624A3AABE4A /* libPods-YYPlayView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYPlayView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4CD7ADC68B97EEAA565D56 /* Pods-YYPlayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPlayView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYPlayView/Pods-YYPlayView.release.xcconfig"; sourceTree = "<group>"; };
+		7125F42D1F1A50B2D2C4FF74 /* Pods-YYPlayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPlayView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYPlayView/Pods-YYPlayView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5722D7C3FCF9108318E70A /* libPods-YYPlayView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +115,8 @@
 				022C832A221D510500CAAC84 /* YYPlayViewTests */,
 				022C8335221D510500CAAC84 /* YYPlayViewUITests */,
 				022C8310221D510400CAAC84 /* Products */,
+				3AE1148465A12771D69E8376 /* Pods */,
+				5A9E7D9A78CE616A8F105AB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +139,7 @@
 				022C836B221D60F800CAAC84 /* YYBasicViewController.m */,
 				022C8388221D624800CAAC84 /* YYLaunchViewController.h */,
 				022C8389221D624800CAAC84 /* YYLaunchViewController.m */,
+				0277FCFF222632B600E3A9B6 /* Player */,
 				022C8373221D613D00CAAC84 /* Home */,
 				022C8374221D614800CAAC84 /* Finder */,
 				022C8375221D615300CAAC84 /* Persional */,
@@ -169,6 +192,8 @@
 		022C836F221D611E00CAAC84 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0277FD0C22263F9C00E3A9B6 /* YYScreenDirection.h */,
+				0277FD0D22263F9C00E3A9B6 /* YYScreenDirection.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -293,6 +318,38 @@
 			path = "Controllers ";
 			sourceTree = "<group>";
 		};
+		0277FCFF222632B600E3A9B6 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				0277FD00222632E900E3A9B6 /* YYPlayerView.h */,
+				0277FD01222632E900E3A9B6 /* YYPlayerView.m */,
+				0277FD062226331B00E3A9B6 /* YYControlView.h */,
+				0277FD072226331B00E3A9B6 /* YYControlView.m */,
+				0277FD092226332A00E3A9B6 /* YYSliderView.h */,
+				0277FD0A2226332A00E3A9B6 /* YYSliderView.m */,
+				0277FD032226330000E3A9B6 /* YYPlayer.h */,
+				0277FD042226330000E3A9B6 /* YYPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		3AE1148465A12771D69E8376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7125F42D1F1A50B2D2C4FF74 /* Pods-YYPlayView.debug.xcconfig */,
+				6A4CD7ADC68B97EEAA565D56 /* Pods-YYPlayView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A9E7D9A78CE616A8F105AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268206C910D9F624A3AABE4A /* libPods-YYPlayView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +357,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 022C833B221D510500CAAC84 /* Build configuration list for PBXNativeTarget "YYPlayView" */;
 			buildPhases = (
+				AC80D53FD304A421C761A5BF /* [CP] Check Pods Manifest.lock */,
 				022C830B221D510400CAAC84 /* Sources */,
 				022C830C221D510400CAAC84 /* Frameworks */,
 				022C830D221D510400CAAC84 /* Resources */,
@@ -417,6 +475,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC80D53FD304A421C761A5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYPlayView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		022C830B221D510400CAAC84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -425,10 +504,15 @@
 				022C8387221D61D400CAAC84 /* YYHomeViewController.m in Sources */,
 				022C8381221D61B200CAAC84 /* YYPersionalViewController.m in Sources */,
 				022C838A221D624800CAAC84 /* YYLaunchViewController.m in Sources */,
+				0277FD02222632E900E3A9B6 /* YYPlayerView.m in Sources */,
 				022C8322221D510500CAAC84 /* main.m in Sources */,
+				0277FD052226330000E3A9B6 /* YYPlayer.m in Sources */,
 				022C836C221D60F800CAAC84 /* YYBasicViewController.m in Sources */,
 				022C8384221D61C100CAAC84 /* YYFinderViewController.m in Sources */,
+				0277FD082226331B00E3A9B6 /* YYControlView.m in Sources */,
+				0277FD0E22263F9C00E3A9B6 /* YYScreenDirection.m in Sources */,
 				022C8314221D510400CAAC84 /* AppDelegate.m in Sources */,
+				0277FD0B2226332A00E3A9B6 /* YYSliderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +673,7 @@
 		};
 		022C833C221D510500CAAC84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7125F42D1F1A50B2D2C4FF74 /* Pods-YYPlayView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -607,6 +692,7 @@
 		};
 		022C833D221D510500CAAC84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4CD7ADC68B97EEAA565D56 /* Pods-YYPlayView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
