@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YYPlayerView : UIView
 
+@property (nonatomic,   weak) id<YYPlayerViewDelegate>delegate;
+
 - (void)playWithUrl:(NSURL *)url;
 
 - (void)playWithVideoPath:(NSString *)videoPath;

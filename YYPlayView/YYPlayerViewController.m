@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor greenColor];
     [self initSubViews];
 }
 
@@ -29,6 +30,10 @@
         YYPlayerView *v = [[YYPlayerView alloc] init];
         v.delegate = self;
         [self.view addSubview:v];
+        [v mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.right.top.mas_equalTo(self.view);
+            make.size.mas_offset(260);
+        }];
         v;
     });
 }

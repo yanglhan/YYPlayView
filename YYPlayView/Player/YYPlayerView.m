@@ -26,6 +26,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         [self initSubViews];
+        self.backgroundColor = [UIColor blueColor];
     }
     return self;
 }
