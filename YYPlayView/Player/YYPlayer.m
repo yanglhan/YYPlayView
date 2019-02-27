@@ -16,42 +16,30 @@
 
 @implementation YYPlayer
 
-
-
-
+- (void)initPlayer:(NSURL *)url {
+    self.player = [[AVPlayer alloc] initWithURL:url];
+}
 
 #pragma mark - pubic
 
-- (void)playWithUrl:(NSURL *)url {
-    
-}
-
-- (void)playWithVideoPath:(NSString *)videoPath {
-    
+- (instancetype)initWithUrl:(NSURL *)url {
+    if (self = [super init]) {
+        [self initPlayer:url];
+    }
+    return self;
 }
 
 - (void)play {
-    
+    [self.player play];
 }
 
 - (void)pause {
-    
-}
-
-- (void)resume {
-    
-}
-
-- (BOOL)isPlaying {
-    return YES;
+    [self.player pause];
 }
 
 - (void)destruction {
-    
+    [self.player removeTimeObserver:self];
+    self.player = nil;
 }
-
-
-
-
 
 @end

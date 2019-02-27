@@ -23,6 +23,8 @@
 		0277FD082226331B00E3A9B6 /* YYControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD072226331B00E3A9B6 /* YYControlView.m */; };
 		0277FD0B2226332A00E3A9B6 /* YYSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD0A2226332A00E3A9B6 /* YYSliderView.m */; };
 		0277FD0E22263F9C00E3A9B6 /* YYScreenDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD0D22263F9C00E3A9B6 /* YYScreenDirection.m */; };
+		0277FD112226783A00E3A9B6 /* YYMoreSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD102226783A00E3A9B6 /* YYMoreSetView.m */; };
+		0277FD14222683C400E3A9B6 /* YYPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0277FD13222683C400E3A9B6 /* YYPlayerViewController.m */; };
 		1D5722D7C3FCF9108318E70A /* libPods-YYPlayView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268206C910D9F624A3AABE4A /* libPods-YYPlayView.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,10 @@
 		0277FD0A2226332A00E3A9B6 /* YYSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSliderView.m; sourceTree = "<group>"; };
 		0277FD0C22263F9C00E3A9B6 /* YYScreenDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYScreenDirection.h; sourceTree = "<group>"; };
 		0277FD0D22263F9C00E3A9B6 /* YYScreenDirection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYScreenDirection.m; sourceTree = "<group>"; };
+		0277FD0F2226783A00E3A9B6 /* YYMoreSetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYMoreSetView.h; sourceTree = "<group>"; };
+		0277FD102226783A00E3A9B6 /* YYMoreSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYMoreSetView.m; sourceTree = "<group>"; };
+		0277FD12222683C400E3A9B6 /* YYPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPlayerViewController.h; sourceTree = "<group>"; };
+		0277FD13222683C400E3A9B6 /* YYPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPlayerViewController.m; sourceTree = "<group>"; };
 		268206C910D9F624A3AABE4A /* libPods-YYPlayView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYPlayView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4CD7ADC68B97EEAA565D56 /* Pods-YYPlayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPlayView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYPlayView/Pods-YYPlayView.release.xcconfig"; sourceTree = "<group>"; };
 		7125F42D1F1A50B2D2C4FF74 /* Pods-YYPlayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPlayView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYPlayView/Pods-YYPlayView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 				022C836B221D60F800CAAC84 /* YYBasicViewController.m */,
 				022C8388221D624800CAAC84 /* YYLaunchViewController.h */,
 				022C8389221D624800CAAC84 /* YYLaunchViewController.m */,
+				0277FD12222683C400E3A9B6 /* YYPlayerViewController.h */,
+				0277FD13222683C400E3A9B6 /* YYPlayerViewController.m */,
 				0277FCFF222632B600E3A9B6 /* Player */,
 				022C8373221D613D00CAAC84 /* Home */,
 				022C8374221D614800CAAC84 /* Finder */,
@@ -329,6 +337,8 @@
 				0277FD0A2226332A00E3A9B6 /* YYSliderView.m */,
 				0277FD032226330000E3A9B6 /* YYPlayer.h */,
 				0277FD042226330000E3A9B6 /* YYPlayer.m */,
+				0277FD0F2226783A00E3A9B6 /* YYMoreSetView.h */,
+				0277FD102226783A00E3A9B6 /* YYMoreSetView.m */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -502,8 +512,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				022C8387221D61D400CAAC84 /* YYHomeViewController.m in Sources */,
+				0277FD14222683C400E3A9B6 /* YYPlayerViewController.m in Sources */,
 				022C8381221D61B200CAAC84 /* YYPersionalViewController.m in Sources */,
 				022C838A221D624800CAAC84 /* YYLaunchViewController.m in Sources */,
+				0277FD112226783A00E3A9B6 /* YYMoreSetView.m in Sources */,
 				0277FD02222632E900E3A9B6 /* YYPlayerView.m in Sources */,
 				022C8322221D510500CAAC84 /* main.m in Sources */,
 				0277FD052226330000E3A9B6 /* YYPlayer.m in Sources */,

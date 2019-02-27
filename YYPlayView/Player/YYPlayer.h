@@ -31,17 +31,11 @@ typedef NS_ENUM(NSUInteger, YYPlayerScreenType) {
 @property (nonatomic, assign) YYPlayerScreenType  screenType;
 @property (nonatomic, assign) YYPlayerStatus      playerStatus;
 
-- (void)playWithUrl:(NSURL *)url;
-
-- (void)playWithVideoPath:(NSString *)videoPath;
+- (instancetype)initWithUrl:(NSURL *)url;
 
 - (void)pause;
 
 - (void)play;
-
-- (void)resume;
-
-- (BOOL)isPlaying;
 
 - (void)destruction;
 
